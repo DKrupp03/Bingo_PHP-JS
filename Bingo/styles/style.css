@@ -1,0 +1,326 @@
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+@font-face{
+	font-family: coda;
+	src: url(./Fonts/Coda-Regular.ttf);
+}
+
+header{
+    background-color: rgb(47, 230, 206);
+    box-shadow: 0px 0px 10px;
+}
+
+#titulo{
+    font-family: coda;
+    font-size: 5vw;
+    padding-top: 12vh;
+    padding-bottom: 7vh;
+    text-align: center;
+}
+
+#como{
+    font-family: coda;
+    font-size: 2.5vw;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+#regras{
+    font-family: coda;
+    font-size: 1.5vw;
+    padding-bottom: 2vh;
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    padding-bottom: 10vh;
+}
+
+#gerar{
+    border-radius: 100px;
+    border-style:none;
+    width: 20vw;
+    height: 10vh;
+    margin-left: 40vw;
+    margin-top: 5vh;
+    font-size: 2vw;
+    font-family: coda;
+    background-color: rgb(22, 22, 97);
+    color: white;
+}
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 40vw;
+    height: 80vh;
+    margin-left: 7.5vw;
+    margin-top: 10vh;
+    font-family: coda;
+    font-size: 4vw;
+    color:black;
+    float: left;
+    border: 3px solid black;
+    background-color: rgb(132, 160, 223);
+    margin-bottom: 10vh;
+}
+
+table tr td{
+    border: 3px solid black;
+}
+
+#dir{
+    float: left;
+    width: 40vw;
+    margin-top: 10vh;
+}
+
+#sorteio{
+    border-radius: 100px;
+    border-style:none;
+    height: 10vh;
+    margin-left: 10vw;
+    font-size: 2vw;
+    float: left;
+    font-family: coda;
+    background-color: rgb(22, 22, 97);
+    color: white;
+    margin-bottom: 4vh;
+    width: 20vw;
+    height: 10vh;
+}
+
+#sorteado{
+    font-family: coda;
+    background-color: rgb(132, 160, 223);
+    margin-left: 5vw;
+    padding: 1.5vw;
+    width: 40vw;
+    font-size: 2vw;
+    float: left;
+}
+
+#resultado{
+    font-family: coda;
+    font-size: 3vw;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+}
+
+@media only screen and (min-width:767px) and (max-width:1024px){ /*tablet e ipad*/
+
+    header{
+        background-color: rgb(47, 230, 206);
+        box-shadow: 0px 0px 10px;
+    }
+    
+    #titulo{
+        font-family: coda;
+        font-size: 10vw;
+        padding-top: 8vh;
+        padding-bottom: 7vh;
+        text-align: center;
+    }
+    
+    #como{
+        font-family: coda;
+        font-size: 5vw;
+        padding-bottom: 2vh;
+        text-align: center;
+    }
+    
+    #regras{
+        font-family: coda;
+        font-size: 4vw;
+        padding-bottom: 2vh;
+        width: 80vw;
+        text-align: center;
+        margin-left: 10vw;
+        padding-bottom: 10vh;
+    }
+
+    #gerar{
+        border-radius: 100px;
+        border-style:none;
+        width: 40vw;
+        height: 10vh;
+        margin-left: 30vw;
+        margin-top: 5vh;
+        font-size: 4vw;
+        font-family: coda;
+        background-color: rgb(22, 22, 97);
+        color: white;
+    }
+    
+    
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        width: 80vw;
+        height: 50vh;
+        margin-left: 10vw;
+        margin-top: 10vh;
+        font-family: coda;
+        font-size: 4vw;
+        color:black;
+        float: left;
+        border: 3px solid black;
+        background-color: rgb(132, 160, 223);
+        margin-bottom: 0;
+    }
+    
+    table tr td{
+        border: 3px solid black;
+    }
+
+    #dir{
+        width: 100vw;
+        margin-top: 0;        
+
+    }
+    
+    #sorteio{
+        border-radius: 100px;
+        border-style:none;
+        width: 40vw;
+        height: 10vh;
+        margin-left: 30vw;
+        font-size: 4vw;
+        font-family: coda;
+        background-color: rgb(22, 22, 97);
+        color: white;       
+    }
+    
+    #sorteado{
+        font-family: coda;
+        background-color: rgb(132, 160, 223);
+        margin-left: 10vw;
+        padding: 1vw;
+        width: 80vw;
+        font-size: 6vw;
+        float: left;
+        margin-bottom: 10vh;        
+
+    }
+    
+    #resultado{
+        font-family: coda;
+        font-size: 6vw;
+        margin-left: 5vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width:766px){
+    header{
+        background-color: rgb(47, 230, 206);
+        box-shadow: 0px 0px 10px;
+    }
+    
+    #titulo{
+        font-family: coda;
+        font-size: 10vw;
+        padding-top: 8vh;
+        padding-bottom: 7vh;
+        text-align: center;
+    }
+    
+    #como{
+        font-family: coda;
+        font-size: 5vw;
+        padding-bottom: 2vh;
+        text-align: center;
+    }
+    
+    #regras{
+        font-family: coda;
+        font-size: 4vw;
+        padding-bottom: 2vh;
+        width: 80vw;
+        text-align: center;
+        margin-left: 10vw;
+        padding-bottom: 10vh;
+    }
+
+    #gerar{
+        border-radius: 100px;
+        border-style:none;
+        width: 50vw;
+        height: 10vh;
+        margin-left: 25vw;
+        margin-top: 5vh;
+        font-size: 5vw;
+        font-family: coda;
+        background-color: rgb(22, 22, 97);
+        color: white;
+    }
+    
+    
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        width: 80vw;
+        height: 45vh;
+        margin-left: 10vw;
+        margin-top: 7vh;
+        font-family: coda;
+        font-size: 6vw;
+        color:black;
+        float: left;
+        border: 2px solid black;
+        background-color: rgb(132, 160, 223);
+        margin-bottom: 0;
+    }
+    
+    table tr td{
+        border: 2px solid black;
+    }
+
+    #dir{
+        width: 100vw;
+        margin-top: 0;        
+    }
+    
+    #sorteio{
+        border-radius: 100px;
+        border-style:none;
+        width: 50vw;
+        height: 10vh;
+        margin-left: 25vw;
+        font-size: 5vw;
+        font-family: coda;
+        background-color: rgb(22, 22, 97);
+        color: white;       
+    }
+    
+    #sorteado{
+        font-family: coda;
+        background-color: rgb(132, 160, 223);
+        margin-left: 10vw;
+        padding: 1vw;
+        width: 80vw;
+        font-size: 6vw;
+        float: left;
+        margin-bottom: 7vh;        
+
+    }
+    
+    #resultado{
+        font-family: coda;
+        font-size: 6vw;
+        margin-left: 5vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+}
